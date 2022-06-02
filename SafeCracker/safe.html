@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Cracker</title>
+    <link rel="stylesheet" href="safestyle.css">
+</head>
+
+
+<body>
+
+    <div class="back-button">
+        <h3><a href="../index.html">Main Menu</a></h3>
+    </div>
+
+<div class="wrapper">
+    <div class="title">
+        <h1>Crack the Safe</h1>
+    </div>
+
+    <div class="message">Guess the combination</div>
+    <div class="game"></div>
+
+    <div class="digits">
+        <label for="num">Number of Digits</label>
+        <input type="number" name="" id="num">
+        <!-- <button>Enter</button> -->
+    </div>
+    
+    <button type="button">Start</button>
+    <div class="instructions">
+        <h2>How to Play</h2>
+        <ol>
+            <li>Choose a level of difficulty by entering the number of digits in the safe combination.</li>
+            <li>Click the Start button.</li>
+            <li>Guess the numbers by clicking on the little arrow-y selector things in each of the spaces beside the numbers. The button should now say "Check the Combination."</li>
+            <li>Click the "Check the Combination" button.</li>
+            <li>If the space around the number turns green, that number is correct. If it turns blue, the number is too low. If it turns red, the number is too high. Adjust the numbers and click the "Check the Combination" button again.</li>
+        </ol>
+        <p>The object of the game is to guess the combination in as few tries as possible.</p>
+    </div>
+</div>
+
+    <script src="safeapp.js"></script>
+</body>
+</html>
+
+<!-- Notes: 
+    slightly expanded on
+https://www.udemy.com/course/javascript-course-projects/learn/lecture/14150411#overview
+Section 16; lectures 185-192
+Combination Guesser Game / Safe Cracker
+
+Added capacity for the player to choose number of digits
+Added title, rewrote the instructions
+Styled
+-->

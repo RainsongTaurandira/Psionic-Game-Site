@@ -1,0 +1,74 @@
+:root {
+    --background-color: rgb(214, 249, 241);
+    --accent-color: teal;
+    --text-color: rgb(26, 69, 104);
+    --light-text: rgb(236, 246, 245);
+    --outline: 2px solid rgb(1, 48, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+.wrapper {
+    width: 70%;
+    padding: 2rem;
+    background-color: var(--background-color);
+    border: var(--outline);
+    margin: 5rem auto;
+    border-radius: 15px;
+}
+
+.title {
+text-align: center;
+}
+
+.game{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.numb {
+    font-size: 2em;
+    padding: .3em;
+}
+
+button {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: .5em;
+    border: var(--outline);
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    color: var(--light-text);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.instructions {
+    margin-bottom: 5rem;
+}
+
+.back-button {
+   
+    margin: 2rem;
+    border: var(--outline);
+    background: var(--background-color);
+    cursor: pointer;
+    border-radius: 15px;
+    width: 10rem;
+}
+
+.back-button h3 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 1rem;
+    
+}
+
