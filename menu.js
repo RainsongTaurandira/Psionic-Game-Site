@@ -35,7 +35,7 @@ function createMenu() {
                             </div>
                         </li>
                         <li class="hover-me"><a href="https://www.fourmilab.ch/rpkp/" target="_break">RetroPsychokinesis Project</a></li>
-                        <li class="hover-me"><a href="pkPages/otherpk.html"">Other Resources</a></li>
+                        <li class="hover-me"><a href="../pkPages/otherpk.html"">Other Resources</a></li>
                     </ul>
                 </div>
             </li>
