@@ -1,0 +1,21 @@
+h2 {
+    margin-bottom: .5rem;
+}
+
+.input-group {
+    margin-bottom: .3rem;
+}
+
+#username, #password {
+    width: 15rem;
+    border-radius: 8px;
+    padding: .3rem;
+    color: rgb(83, 25, 15);
+    background-color: beige;
+}
+.submit-btn {
+    background-color: rgb(83, 25, 15);
+    color: beige;
+    padding: .5rem 1.5rem;
+    border-radius: 15px;
+}
